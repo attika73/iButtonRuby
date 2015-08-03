@@ -1,0 +1,37 @@
+form#task_form
+  input.hidden, select.hidden
+    display: none
+  input.sid
+    width: 4em
+    text-align: center
+    font-weight: bolder
+  input.data
+    width: 10em
+  input.file
+    width: 6em
+    text-align: center
+    font-weight: bolder
+#last_log
+  &.hidden
+    display: none
+  &.info
+    background:
+      color: rgba(230, 255, 230, 0.9)
+      image: image_url(unquote("/images/icons/info.png"))
+      position: 0.25em 0.25em
+      repeat: no-repeat
+    display: block
+    font-size: 0.9em
+    margin: 15px auto
+    padding-left: 30px
+    width: 80%
+p.warning
+  background:
+    color: rgba(255, 204, 204, 0.9)
+    image: image_url(unquote("/images/icons/warning.png"))
+    position: 0.25em 0.25em
+    repeat: no-repeat
+  font-size: 0.9em
+  margin: 25px auto
+  padding-left: 30px
+  width: 50%

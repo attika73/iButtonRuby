@@ -1,0 +1,28 @@
+- if request.xhr?
+  %p.close{:onclick => "ib.crud.destroy()"}
+%p.crud_title= crud_title(r.model,'get_record')
+%table{:cellspacing => "0"}
+  %thead
+    %tr
+      %th Field
+      %th Value
+  %tbody
+    - r.table_data.each do |data|
+      %tr{:class => data[:css]}
+        %td
+          %span= data[:label].gsub('<br/>',' ')
+        %td
+          %span :&nbsp;#{data[:value]}
+  %tfoot
+    %tr
+      %td.buttons_bottom{:colspan => "2"}
+        - unless r.model.name.include?("Log")
+          %span.button.post
+            %a.new{:href => "/ctrl/#{path}/new"} Create
+          %span.button.put
+            %a.edit{:href => "/ctrl/#{path}/#{r.id}/edit"} Edit
+        %span.button.delete
+          %a.delete{:href => "/ctrl/#{path}/#{r.id}/delete", :data => {:referrer => "/ctrl/#{path}/#{r.id.div(25) + 1}/list"}} Delete
+        %span.button.cancel
+          %a.destroy{:href => "/ctrl/#{path}/#{r.id}/list"} Cancel
+

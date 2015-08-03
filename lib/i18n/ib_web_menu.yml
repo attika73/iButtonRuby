@@ -1,0 +1,134 @@
+en:
+  ib_web_menu:
+    home: "Home"
+    docs: "API docs"
+    info: "Monitor"
+    tabl: "Tables"
+    tables:
+      lg: "Log"
+      log:
+        accesses: "Access"
+        errors: "Error"
+        statuses: "Status"
+      hw: "HW"
+      hwd:
+        nodes: "Node"
+        readers: "Reader"
+        keys: "Key"
+        devices: "Device"
+        tasks: "Task/Action"
+      ps: "Persons"
+      psn:
+        owners: "Owner"
+        admins: "Admin"
+        groups: "Group"
+        permissions: "Permission"
+    associations: "Associations"
+    assoc:
+        key_owner: "Key &laquo;&raquo; Owner"
+        reader_node: "Reader &laquo;&raquo; Node"
+        device_node: "Device &laquo;&raquo; Node"
+        device_task: "Device &laquo;&raquo; Task"
+        owner_group: "Owner &raquo; Group(s)"
+        group_owner: "Group members"
+        permission: "Permissions"
+    task: "Tasks"
+de:
+  ib_web_menu:
+    home: "Home"
+    docs: "API docs"
+    info: "Monitor"
+    tabl: "Tables"
+    tables:
+      lg: "Log"
+      log:
+        accesses: "Access"
+        errors: "Error"
+        statuses: "Status"
+      hw: "HW"
+      hwd:
+        nodes: "Node"
+        readers: "Reader"
+        keys: "Key"
+        devices: "Device"
+        tasks: "Task/Action"
+      ps: "Persons"
+      psn:
+        owners: "Owner"
+        admins: "Admin"
+        groups: "Group"
+        permissions: "Permission"
+    associations: "Associations"
+    assoc:
+        key_owner: "Key &laquo;&raquo; Owner"
+        reader_node: "Reader &laquo;&raquo; Node"
+        device_node: "Device &laquo;&raquo; Node"
+        device_task: "Device &laquo;&raquo; Task"
+        owner_group: "Owner &laquo;&raquo; Group"
+    task: "Tasks"
+ro:
+  ib_web_menu:
+    home: "Home"
+    docs: "API docs"
+    info: "Monitor"
+    tabl: "Tables"
+    tables:
+      lg: "Log"
+      log:
+        accesses: "Access"
+        errors: "Error"
+        statuses: "Status"
+      hw: "HW"
+      hwd:
+        nodes: "Node"
+        readers: "Reader"
+        keys: "Key"
+        devices: "Device"
+        tasks: "Task/Action"
+      ps: "Persons"
+      psn:
+        owners: "Owner"
+        admins: "Admin"
+        groups: "Group"
+        permissions: "Permission"
+    associations: "Associations"
+    assoc:
+        key_owner: "Key &laquo;&raquo; Owner"
+        reader_node: "Reader &laquo;&raquo; Node"
+        device_node: "Device &laquo;&raquo; Node"
+        device_task: "Device &laquo;&raquo; Task"
+        owner_group: "Owner &laquo;&raquo; Group"
+    task: "Tasks"
+hu:
+  ib_web_menu:
+    home: "Home"
+    docs: "API docs"
+    info: "Monitor"
+    tabl: "Tables"
+    tables:
+      lg: "Log"
+      log:
+        accesses: "Access"
+        errors: "Error"
+        statuses: "Status"
+      hw: "HW"
+      hwd:
+        nodes: "Node"
+        readers: "Reader"
+        keys: "Key"
+        devices: "Device"
+        tasks: "Task/Action"
+      ps: "Persons"
+      psn:
+        owners: "Owner"
+        admins: "Admin"
+        groups: "Group"
+        permissions: "Permission"
+    associations: "Associations"
+    assoc:
+        key_owner: "Key &laquo;&raquo; Owner"
+        reader_node: "Reader &laquo;&raquo; Node"
+        device_node: "Device &laquo;&raquo; Node"
+        device_task: "Device &laquo;&raquo; Task"
+        owner_group: "Owner &laquo;&raquo; Group"
+    task: "Tasks"

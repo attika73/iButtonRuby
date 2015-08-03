@@ -1,0 +1,244 @@
+en:
+  mdl:
+    id: "Id"
+    created_at: "Created at"
+    updated_at: "Updated at"
+  hw_key:
+    owner_id: "Owner"
+    keyId: "Key name"
+  hw_node:
+    sid: "SId"
+    sid_at: "SId at"
+    name: "Name"
+    readers_nr: "Max./Con.<br/>Readers"
+    devices_nr: "Max./Con.<br/>Devices"
+  hw_reader:
+    node_id: "Node"
+    order: "Order"
+    name: "Name"
+  hw_device:
+    node_id: "Node"
+    order: "Order"
+    task_id: "Task"
+    name: "Name"
+  hw_task:
+    taskId: "Integer(32)"
+    name: "Name"
+  persons_owner:
+    first_name: "First name"
+    last_name: "Last name"
+  persons_admin:
+    owner_id: "Owner"
+    login_name: "Login name"
+    email: "Email"
+  persons_group:
+    name: "Name"
+  persons_permission:
+    group: "Group"
+    request_node: "Request node"
+    request_reader: "Request reader"
+    response_node: "Response node"
+    response_device: "Response device"
+  log_access:
+    created_at: "Date/Time"
+    owner_id: "OId"
+    owner: "Owner"
+    node_req: "Req.node"
+    reader: "Reader"
+    node_res: "Res.node"
+    device: "Device"
+    task: "Task"
+    status: "Status"
+  log_error:
+    created_at: "Date/Time"
+    from: "From"
+    error: "Error"
+  log_status:
+    created_at: "Date/Time"
+    node_id: "Node"
+    node: "Name"
+    is_alive: "Status"
+    updated_at: "Last alive"
+de:
+  mdl:
+    id: "Id"
+    created_at: "Created at"
+    updated_at: "Updated at"
+  hw_key:
+    owner_id: "Owner"
+    keyId: "Key name"
+  hw_node:
+    sid: "SId"
+    sid_at: "SId at"
+    name: "Name"
+    readers_nr: "Max./Con.<br/>Readers"
+    devices_nr: "Max./Con.<br/>Devices"
+  hw_reader:
+    node_id: "Node"
+    order: "Order"
+    name: "Name"
+  hw_device:
+    node_id: "Node"
+    order: "Order"
+    task_id: "Task"
+    name: "Name"
+  hw_task:
+    taskId: "Integer(32)"
+    name: "Name"
+  persons_owner:
+    first_name: "First name"
+    last_name: "Last name"
+  persons_admin:
+    owner_id: "Owner"
+    login_name: "Login name"
+    email: "Email"
+  persons_group:
+    name: "Name"
+  persons_permission:
+    group: "Group"
+    request_node: "Request node"
+    request_reader: "Request reader"
+    response_node: "Response node"
+    response_device: "Response device"
+  log_access:
+    created_at: "Date/Time"
+    owner_id: "OId"
+    owner: "Owner"
+    node_req: "Req.node"
+    reader: "Reader"
+    node_res: "Res.node"
+    device: "Device"
+    task: "Task"
+    status: "Status"
+  log_error:
+    created_at: "Date/Time"
+    from: "From"
+    error: "Error"
+  log_status:
+    created_at: "Date/Time"
+    node_id: "Node"
+    node: "Name"
+    is_alive: "Status"
+    updated_at: "Last alive"
+ro:
+  mdl:
+    id: "Id"
+    created_at: "Created at"
+    updated_at: "Updated at"
+  hw_key:
+    owner_id: "Owner"
+    keyId: "Key name"
+  hw_node:
+    sid: "SId"
+    sid_at: "SId at"
+    name: "Name"
+    readers_nr: "Max./Con.<br/>Readers"
+    devices_nr: "Max./Con.<br/>Devices"
+  hw_reader:
+    node_id: "Node"
+    order: "Order"
+    name: "Name"
+  hw_device:
+    node_id: "Node"
+    order: "Order"
+    task_id: "Task"
+    name: "Name"
+  hw_task:
+    taskId: "Integer(32)"
+    name: "Name"
+  persons_owner:
+    first_name: "First name"
+    last_name: "Last name"
+  persons_admin:
+    owner_id: "Owner"
+    login_name: "Login name"
+    email: "Email"
+  persons_group:
+    name: "Name"
+  persons_permission:
+    group: "Group"
+    request_node: "Request node"
+    request_reader: "Request reader"
+    response_node: "Response node"
+    response_device: "Response device"
+  log_access:
+    created_at: "Date/Time"
+    owner_id: "OId"
+    owner: "Owner"
+    node_req: "Req.node"
+    reader: "Reader"
+    node_res: "Res.node"
+    device: "Device"
+    task: "Task"
+    status: "Status"
+  log_error:
+    created_at: "Date/Time"
+    from: "From"
+    error: "Error"
+  log_status:
+    created_at: "Date/Time"
+    node_id: "Node"
+    node: "Name"
+    is_alive: "Status"
+    updated_at: "Last alive"
+hu:
+  mdl:
+    id: "Id"
+    created_at: "Created at"
+    updated_at: "Updated at"
+  hw_key:
+    owner_id: "Owner"
+    keyId: "Key name"
+  hw_node:
+    sid: "SId"
+    sid_at: "SId at"
+    name: "Name"
+    readers_nr: "Max./Con.<br/>Readers"
+    devices_nr: "Max./Con.<br/>Devices"
+  hw_reader:
+    node_id: "Node"
+    order: "Order"
+    name: "Name"
+  hw_device:
+    node_id: "Node"
+    order: "Order"
+    task_id: "Task"
+    name: "Name"
+  hw_task:
+    taskId: "Integer(32)"
+    name: "Name"
+  persons_owner:
+    first_name: "First name"
+    last_name: "Last name"
+  persons_admin:
+    owner_id: "Owner"
+    login_name: "Login name"
+    email: "Email"
+  persons_group:
+    name: "Name"
+  persons_permission:
+    group: "Group"
+    request_node: "Request node"
+    request_reader: "Request reader"
+    response_node: "Response node"
+    response_device: "Response device"
+  log_access:
+    created_at: "Date/Time"
+    owner_id: "OId"
+    owner: "Owner"
+    node_req: "Req.node"
+    reader: "Reader"
+    node_res: "Res.node"
+    device: "Device"
+    task: "Task"
+    status: "Status"
+  log_error:
+    created_at: "Date/Time"
+    from: "From"
+    error: "Error"
+  log_status:
+    created_at: "Date/Time"
+    node_id: "Node"
+    node: "Name"
+    is_alive: "Status"
+    updated_at: "Last alive"

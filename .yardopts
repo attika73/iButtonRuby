@@ -1,0 +1,13 @@
+--title 'IButton API Documentation'
+--readme README.md
+--markup-provider rdiscount
+--markup markdown
+--output-dir public/docs
+--charset utf-8
+--protected
+--private
+--no-private
+--no-stats
+--plugin yard-sinatra
+--name-tag 'action: What\'s happening'
+

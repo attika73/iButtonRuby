@@ -1,0 +1,19 @@
+- if request.xhr?
+  %p.close{:onclick => "ib.crud.destroy()"}
+%p.crud_title= association_title(path)
+%form{:action => "/ctrl/associations/#{path}/edit", :method => "post",:data => {:referrer => "/ctrl/#{path.split('/')[0]}/1/list"}}
+  %table.associate
+    %thead
+      %tr
+        %td
+          %span= "#{what.split('_').last.capitalize}"
+        %td
+          &nbsp;:&nbsp;
+          %input{:id => what}
+        %td{:colspan => 2}
+    %tbody#xhr_partial
+    %tfoot
+      %tr
+        %td.buttons_bottom{:colspan => path == "persons_group/persons_owner" ? 4 : 2}
+          %input.put{:type => "submit", :value => "Save", :disabled => true}
+          %input.destroy{:type => "reset", :value => "Cancel"}

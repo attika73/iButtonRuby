@@ -1,0 +1,7 @@
+- prefix = '.' + lang_path.gsub('/','') unless lang_path.empty?
+- file=""
+- File.open("README#{prefix}.md","r"){|io| file = io.read}
+
+:markdown
+   #{file}
+

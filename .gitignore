@@ -1,0 +1,11 @@
+.*
+!.gitignore
+!.yardopts
+tmp/*
+!tmp/restart.txt
+db/*.sqlite3
+public/docs/*
+/config/simple_conf.yaml
+Gemfile.lock
+public/javascripts/dojo/*
+log/*

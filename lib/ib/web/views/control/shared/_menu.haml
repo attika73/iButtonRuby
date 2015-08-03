@@ -1,0 +1,57 @@
+%ul
+  %li
+    %a{:href => "/ctrl/"}= t('ib_web_menu.info')
+  %li
+    %a{:href => "#"}= t('ib_web_menu.tabl')
+    %ul
+      %li
+        %a{:href => "#"}= t('ib_web_menu.tables.lg')
+      %li
+        %a.in{:href => "/ctrl/log_access/1/list"}= t('ib_web_menu.tables.log.accesses')
+      %li
+        %a.in{:href => "/ctrl/log_error/1/list"}= t('ib_web_menu.tables.log.errors')
+      %li
+        %a.in{:href => "/ctrl/log_status/1/list"}= t('ib_web_menu.tables.log.statuses')
+      %li
+        %a{:href => "#"}= t('ib_web_menu.tables.hw')
+      %li
+        %a.in{:href => "/ctrl/hw_key/1/list"}= t('ib_web_menu.tables.hwd.keys')
+      %li
+        %a.in{:href => "/ctrl/hw_node/1/list"}= t('ib_web_menu.tables.hwd.nodes')
+      %li
+        %a.in{:href => "/ctrl/hw_reader/1/list"}= t('ib_web_menu.tables.hwd.readers')
+      %li
+        %a.in{:href => "/ctrl/hw_device/1/list"}= t('ib_web_menu.tables.hwd.devices')
+      %li
+        %a.in{:href => "/ctrl/hw_task/1/list"}= t('ib_web_menu.tables.hwd.tasks')
+      %li
+        %a{:href => "#"}= t('ib_web_menu.tables.ps')
+      %li
+        %a.in{:href => "/ctrl/persons_owner/1/list"}= t('ib_web_menu.tables.psn.owners')
+      %li
+        %a.in{:href => "/ctrl/persons_admin/1/list"}= t('ib_web_menu.tables.psn.admins')
+      %li
+        %a.in{:href => "/ctrl/persons_group/1/list"}= t('ib_web_menu.tables.psn.groups')
+      %li
+        %a.in{:href => "/ctrl/persons_permission/1/list"}= t('ib_web_menu.tables.psn.permissions')
+  %li
+    %a{:href => "#"}= t('ib_web_menu.associations')
+    %ul
+      %li
+        %a.edit{:href => "/ctrl/associations/hw_key/persons_owner"}= t('ib_web_menu.assoc.key_owner')
+      %li
+        %a.edit{:href => "/ctrl/associations/hw_reader/hw_node"}= t('ib_web_menu.assoc.reader_node')
+      %li
+        %a.edit{:href => "/ctrl/associations/hw_device/hw_node"}= t('ib_web_menu.assoc.device_node')
+      %li
+        %a.edit{:href => "/ctrl/associations/hw_device/hw_task"}= t('ib_web_menu.assoc.device_task')
+      %li
+        %a.edit{:href => "/ctrl/associations/persons_owner/persons_group"}= t('ib_web_menu.assoc.owner_group')
+      %li
+        %a.edit{:href => "/ctrl/associations/persons_group/persons_owner"}= t('ib_web_menu.assoc.group_owner')
+      %li
+        %a.edit{:href => "/ctrl/associations/persons_permission/many_to_one"}= t('ib_web_menu.assoc.permission')
+  %li
+  %li
+    %a{:href => "/ctrl/tsk/"}= t('ib_web_menu.task')
+
